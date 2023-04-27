@@ -8,8 +8,6 @@ import './Navigation.scss';
 import logo from '../assets/logo.svg';
 
 
-
-
 const Navigation = () => {
   return (
     <Navbar expand="lg">
@@ -27,7 +25,9 @@ const Navigation = () => {
           <ButtonGroup>
             <Button variant="outline-light">
               <NavDropdown title="Acessar minha conta" id="navbarScrollingDropdown">
-                <NavDropdown.Item href="#action3">Pessoa Física</NavDropdown.Item>
+                <NavDropdown.Item href="#action3">
+                  Pessoa Física
+                </NavDropdown.Item>
                 <NavDropdown.Item href="#action4">
                   Pessoa Jurídica
                 </NavDropdown.Item>

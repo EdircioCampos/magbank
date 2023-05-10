@@ -18,17 +18,17 @@ const CreditCard = () => {
                     </Row>
                     <Row>
                         <Col xs={12} lg={6} className='mb-4'>
-                            <IconText icon={faCreditCard}>Crédito pessoal</IconText>
+                            <IconText icon={faCreditCard} color='#f05656' textClassName='h-5 text-muted' size={2}>Crédito pessoal</IconText>
                         </Col>
                         <Col xs={12} lg={6} className='mb-4'>
-                            <IconText icon={faShoppingCart}>Crédito pessoal</IconText>
+                            <IconText icon={faShoppingCart} color='#f05656' textClassName='h-5 text-muted' size={2}>Pagamento Online</IconText>
                         </Col>
                         <Col xs={12} lg={6} className='mb-4'>
 
-                            <IconText icon={faMobile}>Crédito pessoal</IconText>
+                            <IconText icon={faMobile} color='#f05656' textClassName='h-5 text-muted' size={2}>App</IconText>
                         </Col>
                         <Col xs={12} lg={6} className='mb-4'>
-                            <IconText icon={faWallet}>Crédito pessoal</IconText>
+                            <IconText icon={faWallet} color='#f05656' textClassName='h-5 text-muted' size={2}>Carteira Digital</IconText>
                         </Col>
                     </Row>
                 </Col>

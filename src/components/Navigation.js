@@ -25,10 +25,10 @@ const Navigation = () => {
           <ButtonGroup>
             <Button variant="outline-light">
               <NavDropdown title="Acessar minha conta" id="navbarScrollingDropdown">
-                <NavDropdown.Item href="#action3">
+                <NavDropdown.Item className='textColor' href="#action3">
                   Pessoa Física
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action4">
+                <NavDropdown.Item className='textColor' href="#action4">
                   Pessoa Jurídica
                 </NavDropdown.Item>
               </NavDropdown>

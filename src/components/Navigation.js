@@ -8,7 +8,7 @@ import './Navigation.scss';
 import logo from '../assets/logo.svg';
 
 
-const Navigation = () => {
+const Navigation = ({handleCreateAccount}) => {
   return (
     <Navbar expand="lg">
       <Container>
@@ -33,7 +33,7 @@ const Navigation = () => {
                 </NavDropdown.Item>
               </NavDropdown>
             </Button>
-            <Button variant="outline-light">
+            <Button variant="outline-light" onClick={() => handleCreateAccount()}>
               Abra sua conta
             </Button>
           </ButtonGroup>
